@@ -5,11 +5,11 @@
 		<title>Rest</title>
 
 		<link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href=" <?php echo get_stylesheet_directory_uri(); ?>/style.css">
 	</head>
 
 	<body>
-		
+  <?php echo get_stylesheet_directory_uri(); ?>
 		<header>
 			<nav>
 				<ul>
@@ -19,7 +19,7 @@
 				</ul>
 			</nav>
 
-			<h1><img src="img/rest.png" alt="Rest"></h1>
+			<h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/rest.png" alt="Rest"></h1>
 
 			<p>Rua Marechal 29 – Copacabana – Rj</p>
 			<p class="telefone">2422-9201</p>
