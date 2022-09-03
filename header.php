@@ -15,7 +15,7 @@
 		<header>
 			<nav>
 				<ul>
-					<li class="current_page_item"><a href="/menu-da-semana">Menu</a></li>
+					<li class="current_page_item"><a href="/">Menu</a></li>
 					<li><a href="/sobre">Sobre</a></li>
 					<li><a href="/contato">Contato</a></li>
 				</ul>
