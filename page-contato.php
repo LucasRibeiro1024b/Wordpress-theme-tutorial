@@ -4,8 +4,10 @@
 
 <?php get_header(); ?>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 <section class="container contato">
-  <h2 class="subtitulo">Contato</h2>
+  <h2 class="subtitulo"><?php the_title(); ?></h2>
 
   <div class="grid-16">
     <a href="https://www.google.com.br/maps" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/rest-mapa.jpg" alt="Fachada do Rest"></a>
@@ -30,5 +32,8 @@
     <p>Brasil - Terra - Via Láctea</p>
   </div>
 </section>
+
+<?php endwhile; else : ?>
+<?php endif; ?>
 
 <?php get_footer(); ?>
