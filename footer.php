@@ -9,6 +9,9 @@
 			</nav>
 
 			<p>Rest © 2015. Alguns direitos reservados.</p>
+
+      <!-- Wordpress footer content -->
+      <?php wp_footer(); ?>
 		</footer>
 
 	</body>

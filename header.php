@@ -6,10 +6,12 @@
 
 		<link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href=" <?php echo get_stylesheet_directory_uri(); ?>/style.css">
+
+    <!-- Wordpress head content -->
+    <?php wp_head(); ?>
 	</head>
 
 	<body>
-  <?php echo get_stylesheet_directory_uri(); ?>
 		<header>
 			<nav>
 				<ul>

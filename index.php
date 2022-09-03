@@ -1,4 +1,4 @@
-<?php get_header() ?>
+<?php get_header(); ?>
 
 <section class="container">
 			<h2 class="subtitulo">Menu da Semana</h2>
@@ -59,4 +59,4 @@
 
 		</section>
 
-<?php get_footer() ?>
+<?php get_footer(); ?>
