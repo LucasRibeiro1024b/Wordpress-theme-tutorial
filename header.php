@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>Rest</title>
+		<title><?php bloginfo('name'); ?></title>
 
 		<link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href=" <?php echo get_stylesheet_directory_uri(); ?>/style.css">
@@ -23,6 +23,7 @@
 
 			<h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/rest.png" alt="Rest"></h1>
 
+      <p><?php bloginfo('description'); ?></p>
 			<p>Rua Marechal 29 – Copacabana – Rj</p>
 			<p class="telefone">2422-9201</p>
 		</header>
